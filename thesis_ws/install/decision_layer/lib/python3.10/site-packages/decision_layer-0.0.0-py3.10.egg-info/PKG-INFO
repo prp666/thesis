@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: decision-layer
+Version: 0.0.0
+Summary: ROS2 decision node that fuses sound and vision detections and triggers GPS spoofing.
+Home-page: UNKNOWN
+Maintainer: prp
+Maintainer-email: pengruipu@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

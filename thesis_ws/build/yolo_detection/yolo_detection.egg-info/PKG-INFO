@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yolo-detection
+Version: 0.0.0
+Summary: ROS2 vision detection node backed by a TFLite YOLO model.
+Home-page: UNKNOWN
+Maintainer: prp
+Maintainer-email: pengruipu@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

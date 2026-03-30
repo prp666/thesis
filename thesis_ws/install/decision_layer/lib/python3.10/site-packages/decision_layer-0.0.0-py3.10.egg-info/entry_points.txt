@@ -1,0 +1,3 @@
+[console_scripts]
+decision_node = decision_layer.decision_node:main
+

@@ -1,0 +1,6 @@
+source;share/decision_layer/hook/pythonpath.ps1
+source;share/decision_layer/hook/pythonpath.dsv
+source;share/decision_layer/hook/pythonpath.sh
+source;share/decision_layer/hook/ament_prefix_path.ps1
+source;share/decision_layer/hook/ament_prefix_path.dsv
+source;share/decision_layer/hook/ament_prefix_path.sh

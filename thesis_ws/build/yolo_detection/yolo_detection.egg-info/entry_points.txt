@@ -1,0 +1,4 @@
+[console_scripts]
+fake_image_source_node = yolo_detection.fake_image_source_node:main
+vision_detector = yolo_detection.vision_detector:main
+

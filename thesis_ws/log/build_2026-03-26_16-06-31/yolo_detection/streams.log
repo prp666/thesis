@@ -1,0 +1,27 @@
+[0.352s] Invoking command in '/home/prp/thesis/thesis_ws/src/yolo_detection': PS1=(detection_yolo) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/prp/thesis/thesis_ws/build/yolo_detection/prefix_override:/home/prp/detection_yolo/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(detection_yolo) /home/prp/detection_yolo/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/prp/thesis/thesis_ws/build/yolo_detection/build install --record /home/prp/thesis/thesis_ws/build/yolo_detection/install.log --single-version-externally-managed install_data
+[0.442s] running egg_info
+[0.442s] writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO
+[0.442s] writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt
+[0.442s] writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt
+[0.442s] writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt
+[0.443s] writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt
+[0.443s] reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[0.443s] writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[0.443s] running build
+[0.443s] running build_py
+[0.443s] copying yolo_detection/vision_detector.py -> /home/prp/thesis/thesis_ws/build/yolo_detection/build/lib/yolo_detection
+[0.444s] running install
+[0.444s] running install_lib
+[0.444s] copying /home/prp/thesis/thesis_ws/build/yolo_detection/build/lib/yolo_detection/vision_detector.py -> /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection
+[0.444s] byte-compiling /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection/vision_detector.py to vision_detector.cpython-310.pyc
+[0.446s] running install_data
+[0.446s] copying config/vision_detector.yaml -> /home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/config
+[0.446s] copying pictures/drone_1.jpg -> /home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/pictures
+[0.446s] running install_egg_info
+[0.447s] removing '/home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.447s] Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info
+[0.447s] running install_scripts
+[0.456s] Installing fake_image_source_node script to /home/prp/thesis/thesis_ws/install/yolo_detection/lib/yolo_detection
+[0.456s] Installing vision_detector script to /home/prp/thesis/thesis_ws/install/yolo_detection/lib/yolo_detection
+[0.456s] writing list of installed files to '/home/prp/thesis/thesis_ws/build/yolo_detection/install.log'
+[0.476s] Invoked command in '/home/prp/thesis/thesis_ws/src/yolo_detection' returned '0': PS1=(detection_yolo) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/prp/thesis/thesis_ws/build/yolo_detection/prefix_override:/home/prp/detection_yolo/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(detection_yolo) /home/prp/detection_yolo/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/prp/thesis/thesis_ws/build/yolo_detection/build install --record /home/prp/thesis/thesis_ws/build/yolo_detection/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+fake_audio_source_node = sound_detection.fake_audio_source_node:main
+sound_presence_detector_node = sound_detection.sound_presence_detector_node:main
+

@@ -1,0 +1,23 @@
+/vision_detector_node:
+  ros__parameters:
+    image_topic: /camera/image_raw
+    detected_topic: /vision/detected
+    confidence_topic: /vision/confidence
+    bbox_topic: /vision/bbox
+    class_id_topic: /vision/class_id
+    debug_image_topic: /vision/debug_image
+    publish_debug_image: false
+    target_class_id: 0
+    target_label: drone
+    image_timeout_sec: 1.0
+    model_path: ""
+    score_threshold: 0.20
+    iou_threshold: 0.45
+    max_detections: 2
+    process_every_n_frames: 3
+    input_size: 640
+    use_rgb: true
+    print_output_shape_once: true
+    log_every_n_inferences: 10
+    debug_log_rejected_candidates: true
+    prefer_objectness_when_class_scores_empty: true

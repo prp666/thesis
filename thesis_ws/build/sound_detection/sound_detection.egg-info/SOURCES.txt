@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/sound_detection/sound_detection.egg-info/PKG-INFO
+../../build/sound_detection/sound_detection.egg-info/SOURCES.txt
+../../build/sound_detection/sound_detection.egg-info/dependency_links.txt
+../../build/sound_detection/sound_detection.egg-info/entry_points.txt
+../../build/sound_detection/sound_detection.egg-info/requires.txt
+../../build/sound_detection/sound_detection.egg-info/top_level.txt
+../../build/sound_detection/sound_detection.egg-info/zip-safe
+resource/sound_detection
+sound_detection/__init__.py
+sound_detection/fake_audio_source_node.py
+sound_detection/sound_presence_detector_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

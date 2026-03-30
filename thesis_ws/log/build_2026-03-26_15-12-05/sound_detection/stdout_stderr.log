@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/sound_detection/sound_detection.egg-info
+writing ../../build/sound_detection/sound_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/sound_detection/sound_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/sound_detection/sound_detection.egg-info/entry_points.txt
+writing requirements to ../../build/sound_detection/sound_detection.egg-info/requires.txt
+writing top-level names to ../../build/sound_detection/sound_detection.egg-info/top_level.txt
+writing manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/prp/thesis/thesis_ws/build/sound_detection/build
+creating /home/prp/thesis/thesis_ws/build/sound_detection/build/lib
+creating /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection
+copying sound_detection/__init__.py -> /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection
+copying sound_detection/sound_presence_detector_node.py -> /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection
+copying sound_detection/fake_audio_source_node.py -> /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection
+running install
+running install_lib
+creating /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection
+copying /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection/__init__.py -> /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection
+copying /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection/sound_presence_detector_node.py -> /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection
+copying /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection/fake_audio_source_node.py -> /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection
+byte-compiling /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection/sound_presence_detector_node.py to sound_presence_detector_node.cpython-310.pyc
+byte-compiling /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection/fake_audio_source_node.py to fake_audio_source_node.cpython-310.pyc
+running install_data
+creating /home/prp/thesis/thesis_ws/install/sound_detection/share/ament_index
+creating /home/prp/thesis/thesis_ws/install/sound_detection/share/ament_index/resource_index
+creating /home/prp/thesis/thesis_ws/install/sound_detection/share/ament_index/resource_index/packages
+copying resource/sound_detection -> /home/prp/thesis/thesis_ws/install/sound_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/prp/thesis/thesis_ws/install/sound_detection/share/sound_detection
+running install_egg_info
+Copying ../../build/sound_detection/sound_detection.egg-info to /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fake_audio_source_node script to /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection
+Installing sound_presence_detector_node script to /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection
+writing list of installed files to '/home/prp/thesis/thesis_ws/build/sound_detection/install.log'

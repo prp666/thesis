@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.000029] (-) JobUnselected: {'identifier': 'sound_detection'}
+[0.000041] (-) JobUnselected: {'identifier': 'yolo_detection'}
+[0.000049] (decision_layer) JobQueued: {'identifier': 'decision_layer', 'dependencies': OrderedDict()}
+[0.000221] (decision_layer) JobStarted: {'identifier': 'decision_layer'}
+[0.100025] (-) TimerEvent: {}
+[0.200185] (-) TimerEvent: {}
+[0.296541] (decision_layer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/decision_layer', 'build', '--build-base', '/home/prp/thesis/thesis_ws/build/decision_layer/build', 'install', '--record', '/home/prp/thesis/thesis_ws/build/decision_layer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/prp/thesis/thesis_ws/src/decision_layer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/prp', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'prp', 'SNAP_COMMON': '/var/snap/code/common', 'LC_TIME': 'sv_SE.UTF-8', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/230/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/prp/snap/code/common/.cache/gio-modules', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'SSH_AGENT_PID': '2270', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'SNAP_UID': '1000', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/prp', 'CHROME_DESKTOP': 'code.desktop', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32', 'SNAP_USER_DATA': '/home/prp/snap/code/230', 'GTK_PATH': '/snap/code/230/usr/lib/x86_64-linux-gnu/gtk-3.0', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-5f9c291c-1.11-main.sock', 'GTK_IM_MODULE_FILE': '/home/prp/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'LC_MONETARY': 'sv_SE.UTF-8', 'MANAGERPID': '2119', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2564', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '230', 'COLORTERM': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3897', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'prp', 'SNAP_CONTEXT': 'Ab0D0I73TsJapGUEG_4BWbrBIBwKF-_VNstzLutJlol_0bEKjAUr', 'JOURNAL_STREAM': '8:2616', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '07ff9d61', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'RUST_LOG': 'warn', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'code', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/prp/.local/bin:/home/prp/.codex/tmp/arg0/codex-arg033odUo:/home/prp/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/prp/.vscode/extensions/openai.chatgpt-26.324.21329-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/prpdesktop:@/tmp/.ICE-unix/2526,unix/prpdesktop:/tmp/.ICE-unix/2526', 'GTK_EXE_PREFIX': '/snap/code/230/usr', 'INVOCATION_ID': '823be74f6d6f4f53abea84a3803f0bff', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sv_SE.UTF-8', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'SNAP_DATA': '/var/snap/code/230', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'LOCPATH': '/snap/code/230/usr/lib/locale', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'XDG_DATA_HOME': '/home/prp/snap/code/230/.local/share', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'SNAP_USER_COMMON': '/home/prp/snap/code/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/prp/snap/code/230/.local/share/glib-2.0/schemas', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SNAP_COOKIE': 'Ab0D0I73TsJapGUEG_4BWbrBIBwKF-_VNstzLutJlol_0bEKjAUr', 'UID': '1000', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'GDK_PIXBUF_MODULEDIR': '/snap/code/230/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'SNAP_NAME': 'code', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'CODEX_THREAD_ID': '019d2a19-2dd2-7221-a4d0-7aab005a8ec6', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'GDK_PIXBUF_MODULE_FILE': '/home/prp/snap/code/common/.cache/gdk-pixbuf-loaders.cache', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'SNAP_LAUNCHER_ARCH_TRIPLET': 'x86_64-linux-gnu', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prp/thesis/thesis_ws/build/decision_layer', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'SNAP_REAL_HOME': '/home/prp', 'VSCODE_CODE_CACHE_PATH': '/home/prp/.config/Code/CachedData/07ff9d6178ede9a1bd12ad3399074d726ebe6e43', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/home/prp/snap/code/230/.local/share:/home/prp/snap/code/230:/snap/code/230/usr/share:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/home/prp/thesis/thesis_ws/build/decision_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'SNAP': '/snap/code/230', 'LC_NUMERIC': 'sv_SE.UTF-8', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'VSCODE_PID': '3959'}, 'shell': False}
+[0.300237] (-) TimerEvent: {}
+[0.400435] (-) TimerEvent: {}
+[0.405659] (decision_layer) StdoutLine: {'line': b'running egg_info\n'}
+[0.405896] (decision_layer) StdoutLine: {'line': b'creating ../../build/decision_layer/decision_layer.egg-info\n'}
+[0.405926] (decision_layer) StdoutLine: {'line': b'writing ../../build/decision_layer/decision_layer.egg-info/PKG-INFO\n'}
+[0.406133] (decision_layer) StdoutLine: {'line': b'writing dependency_links to ../../build/decision_layer/decision_layer.egg-info/dependency_links.txt\n'}
+[0.406157] (decision_layer) StdoutLine: {'line': b'writing entry points to ../../build/decision_layer/decision_layer.egg-info/entry_points.txt\n'}
+[0.406177] (decision_layer) StdoutLine: {'line': b'writing requirements to ../../build/decision_layer/decision_layer.egg-info/requires.txt\n'}
+[0.406198] (decision_layer) StdoutLine: {'line': b'writing top-level names to ../../build/decision_layer/decision_layer.egg-info/top_level.txt\n'}
+[0.406301] (decision_layer) StdoutLine: {'line': b"writing manifest file '../../build/decision_layer/decision_layer.egg-info/SOURCES.txt'\n"}
+[0.407061] (decision_layer) StdoutLine: {'line': b"reading manifest file '../../build/decision_layer/decision_layer.egg-info/SOURCES.txt'\n"}
+[0.407376] (decision_layer) StdoutLine: {'line': b"writing manifest file '../../build/decision_layer/decision_layer.egg-info/SOURCES.txt'\n"}
+[0.407435] (decision_layer) StdoutLine: {'line': b'running build\n'}
+[0.407456] (decision_layer) StdoutLine: {'line': b'running build_py\n'}
+[0.407538] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/build/decision_layer/build\n'}
+[0.407560] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/build/decision_layer/build/lib\n'}
+[0.407582] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/build/decision_layer/build/lib/decision_layer\n'}
+[0.407653] (decision_layer) StdoutLine: {'line': b'copying decision_layer/__init__.py -> /home/prp/thesis/thesis_ws/build/decision_layer/build/lib/decision_layer\n'}
+[0.407673] (decision_layer) StdoutLine: {'line': b'copying decision_layer/decision_node.py -> /home/prp/thesis/thesis_ws/build/decision_layer/build/lib/decision_layer\n'}
+[0.407792] (decision_layer) StdoutLine: {'line': b'running install\n'}
+[0.407957] (decision_layer) StdoutLine: {'line': b'running install_lib\n'}
+[0.408275] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer\n'}
+[0.408329] (decision_layer) StdoutLine: {'line': b'copying /home/prp/thesis/thesis_ws/build/decision_layer/build/lib/decision_layer/__init__.py -> /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer\n'}
+[0.408386] (decision_layer) StdoutLine: {'line': b'copying /home/prp/thesis/thesis_ws/build/decision_layer/build/lib/decision_layer/decision_node.py -> /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer\n'}
+[0.408601] (decision_layer) StdoutLine: {'line': b'byte-compiling /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer/__init__.py to __init__.cpython-310.pyc\n'}
+[0.408695] (decision_layer) StdoutLine: {'line': b'byte-compiling /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer/decision_node.py to decision_node.cpython-310.pyc\n'}
+[0.409548] (decision_layer) StdoutLine: {'line': b'running install_data\n'}
+[0.409656] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/install/decision_layer/share/ament_index\n'}
+[0.409677] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/install/decision_layer/share/ament_index/resource_index\n'}
+[0.409698] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/install/decision_layer/share/ament_index/resource_index/packages\n'}
+[0.409718] (decision_layer) StdoutLine: {'line': b'copying resource/decision_layer -> /home/prp/thesis/thesis_ws/install/decision_layer/share/ament_index/resource_index/packages\n'}
+[0.409799] (decision_layer) StdoutLine: {'line': b'copying package.xml -> /home/prp/thesis/thesis_ws/install/decision_layer/share/decision_layer\n'}
+[0.409819] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/install/decision_layer/share/decision_layer/config\n'}
+[0.409843] (decision_layer) StdoutLine: {'line': b'copying config/decision_node.yaml -> /home/prp/thesis/thesis_ws/install/decision_layer/share/decision_layer/config\n'}
+[0.409918] (decision_layer) StdoutLine: {'line': b'creating /home/prp/thesis/thesis_ws/install/decision_layer/share/decision_layer/launch\n'}
+[0.409938] (decision_layer) StdoutLine: {'line': b'copying launch/decision_node.launch.py -> /home/prp/thesis/thesis_ws/install/decision_layer/share/decision_layer/launch\n'}
+[0.409957] (decision_layer) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.411060] (decision_layer) StdoutLine: {'line': b'Copying ../../build/decision_layer/decision_layer.egg-info to /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer-0.0.0-py3.10.egg-info\n'}
+[0.411354] (decision_layer) StdoutLine: {'line': b'running install_scripts\n'}
+[0.420458] (decision_layer) StdoutLine: {'line': b'Installing decision_node script to /home/prp/thesis/thesis_ws/install/decision_layer/lib/decision_layer\n'}
+[0.420584] (decision_layer) StdoutLine: {'line': b"writing list of installed files to '/home/prp/thesis/thesis_ws/build/decision_layer/install.log'\n"}
+[0.500510] (-) TimerEvent: {}
+[0.600731] (-) TimerEvent: {}
+[0.700985] (-) TimerEvent: {}
+[0.801266] (-) TimerEvent: {}
+[0.901394] (-) TimerEvent: {}
+[1.001612] (-) TimerEvent: {}
+[1.101774] (-) TimerEvent: {}
+[1.201891] (-) TimerEvent: {}
+[1.302011] (-) TimerEvent: {}
+[1.402142] (-) TimerEvent: {}
+[1.502309] (-) TimerEvent: {}
+[1.602435] (-) TimerEvent: {}
+[1.702628] (-) TimerEvent: {}
+[1.802824] (-) TimerEvent: {}
+[1.902962] (-) TimerEvent: {}
+[2.003093] (-) TimerEvent: {}
+[2.103213] (-) TimerEvent: {}
+[2.203333] (-) TimerEvent: {}
+[2.303487] (-) TimerEvent: {}
+[2.403621] (-) TimerEvent: {}
+[2.503740] (-) TimerEvent: {}
+[2.603881] (-) TimerEvent: {}
+[2.704000] (-) TimerEvent: {}
+[2.804128] (-) TimerEvent: {}
+[2.904245] (-) TimerEvent: {}
+[3.004367] (-) TimerEvent: {}
+[3.104485] (-) TimerEvent: {}
+[3.204631] (-) TimerEvent: {}
+[3.304914] (-) TimerEvent: {}
+[3.405041] (-) TimerEvent: {}
+[3.505321] (-) TimerEvent: {}
+[3.605455] (-) TimerEvent: {}
+[3.705581] (-) TimerEvent: {}
+[3.805699] (-) TimerEvent: {}
+[3.905821] (-) TimerEvent: {}
+[4.006024] (-) TimerEvent: {}
+[4.106147] (-) TimerEvent: {}
+[4.206268] (-) TimerEvent: {}
+[4.306385] (-) TimerEvent: {}
+[4.406504] (-) TimerEvent: {}
+[4.506621] (-) TimerEvent: {}
+[4.606830] (-) TimerEvent: {}
+[4.706952] (-) TimerEvent: {}
+[4.807072] (-) TimerEvent: {}
+[4.907199] (-) TimerEvent: {}
+[5.007320] (-) TimerEvent: {}
+[5.107439] (-) TimerEvent: {}
+[5.207559] (-) TimerEvent: {}
+[5.307894] (-) TimerEvent: {}
+[5.408022] (-) TimerEvent: {}
+[5.508140] (-) TimerEvent: {}
+[5.608256] (-) TimerEvent: {}
+[5.708377] (-) TimerEvent: {}
+[5.808493] (-) TimerEvent: {}
+[5.908610] (-) TimerEvent: {}
+[6.008771] (-) TimerEvent: {}
+[6.108945] (-) TimerEvent: {}
+[6.209102] (-) TimerEvent: {}
+[6.309240] (-) TimerEvent: {}
+[6.409363] (-) TimerEvent: {}
+[6.509486] (-) TimerEvent: {}
+[6.609603] (-) TimerEvent: {}
+[6.709790] (-) TimerEvent: {}
+[6.809953] (-) TimerEvent: {}
+[6.910118] (-) TimerEvent: {}
+[7.010394] (-) TimerEvent: {}
+[7.110624] (-) TimerEvent: {}
+[7.210888] (-) TimerEvent: {}
+[7.311193] (-) TimerEvent: {}
+[7.411418] (-) TimerEvent: {}
+[7.511621] (-) TimerEvent: {}
+[7.611852] (-) TimerEvent: {}
+[7.712060] (-) TimerEvent: {}
+[7.812184] (-) TimerEvent: {}
+[7.912392] (-) TimerEvent: {}
+[8.012674] (-) TimerEvent: {}
+[8.112993] (-) TimerEvent: {}
+[8.213271] (-) TimerEvent: {}
+[8.313483] (-) TimerEvent: {}
+[8.413690] (-) TimerEvent: {}
+[8.513967] (-) TimerEvent: {}
+[8.614121] (-) TimerEvent: {}
+[8.714296] (-) TimerEvent: {}
+[8.814425] (-) TimerEvent: {}
+[8.914622] (-) TimerEvent: {}
+[9.014882] (-) TimerEvent: {}
+[9.115000] (-) TimerEvent: {}
+[9.215144] (-) TimerEvent: {}
+[9.315265] (-) TimerEvent: {}
+[9.415385] (-) TimerEvent: {}
+[9.515588] (-) TimerEvent: {}
+[9.615759] (-) TimerEvent: {}
+[9.716013] (-) TimerEvent: {}
+[9.816275] (-) TimerEvent: {}
+[9.916424] (-) TimerEvent: {}
+[10.016573] (-) TimerEvent: {}
+[10.116718] (-) TimerEvent: {}
+[10.216988] (-) TimerEvent: {}
+[10.317139] (-) TimerEvent: {}
+[10.417368] (-) TimerEvent: {}
+[10.517646] (-) TimerEvent: {}
+[10.617861] (-) TimerEvent: {}
+[10.718149] (-) TimerEvent: {}
+[10.818304] (-) TimerEvent: {}
+[10.918461] (-) TimerEvent: {}
+[11.018583] (-) TimerEvent: {}
+[11.118705] (-) TimerEvent: {}
+[11.218964] (-) TimerEvent: {}
+[11.319214] (-) TimerEvent: {}
+[11.419341] (-) TimerEvent: {}
+[11.519460] (-) TimerEvent: {}
+[11.619727] (-) TimerEvent: {}
+[11.719890] (-) TimerEvent: {}
+[11.820047] (-) TimerEvent: {}
+[11.920247] (-) TimerEvent: {}
+[12.020374] (-) TimerEvent: {}
+[12.120657] (-) TimerEvent: {}
+[12.220886] (-) TimerEvent: {}
+[12.321047] (-) TimerEvent: {}
+[12.421184] (-) TimerEvent: {}
+[12.521309] (-) TimerEvent: {}
+[12.621480] (-) TimerEvent: {}
+[12.721709] (-) TimerEvent: {}
+[12.821925] (-) TimerEvent: {}
+[12.922145] (-) TimerEvent: {}
+[13.022279] (-) TimerEvent: {}
+[13.122405] (-) TimerEvent: {}
+[13.222524] (-) TimerEvent: {}
+[13.322645] (-) TimerEvent: {}
+[13.422768] (-) TimerEvent: {}
+[13.522875] (-) TimerEvent: {}
+[13.623008] (-) TimerEvent: {}
+[13.723130] (-) TimerEvent: {}
+[13.823262] (-) TimerEvent: {}
+[13.923381] (-) TimerEvent: {}
+[14.023517] (-) TimerEvent: {}
+[14.123657] (-) TimerEvent: {}
+[14.223784] (-) TimerEvent: {}
+[14.323947] (-) TimerEvent: {}
+[14.424070] (-) TimerEvent: {}
+[14.524200] (-) TimerEvent: {}
+[14.624325] (-) TimerEvent: {}
+[14.724450] (-) TimerEvent: {}
+[14.824595] (-) TimerEvent: {}
+[14.924814] (-) TimerEvent: {}
+[15.024933] (-) TimerEvent: {}
+[15.125056] (-) TimerEvent: {}
+[15.225182] (-) TimerEvent: {}
+[15.325307] (-) TimerEvent: {}
+[15.425425] (-) TimerEvent: {}
+[15.525550] (-) TimerEvent: {}
+[15.625680] (-) TimerEvent: {}
+[15.725799] (-) TimerEvent: {}
+[15.825909] (-) TimerEvent: {}
+[15.926057] (-) TimerEvent: {}
+[16.026201] (-) TimerEvent: {}
+[16.126324] (-) TimerEvent: {}
+[16.226446] (-) TimerEvent: {}
+[16.326568] (-) TimerEvent: {}
+[16.426700] (-) TimerEvent: {}
+[16.526920] (-) TimerEvent: {}
+[16.627215] (-) TimerEvent: {}
+[16.727342] (-) TimerEvent: {}
+[16.827463] (-) TimerEvent: {}
+[16.927583] (-) TimerEvent: {}
+[17.027705] (-) TimerEvent: {}
+[17.127982] (-) TimerEvent: {}
+[17.228116] (-) TimerEvent: {}
+[17.328398] (-) TimerEvent: {}
+[17.428671] (-) TimerEvent: {}
+[17.528944] (-) TimerEvent: {}
+[17.629218] (-) TimerEvent: {}
+[17.729345] (-) TimerEvent: {}
+[17.829479] (-) TimerEvent: {}
+[17.929754] (-) TimerEvent: {}
+[18.030013] (-) TimerEvent: {}
+[18.130243] (-) TimerEvent: {}
+[18.230364] (-) TimerEvent: {}
+[18.330486] (-) TimerEvent: {}
+[18.430763] (-) TimerEvent: {}
+[18.531099] (-) TimerEvent: {}
+[18.631324] (-) TimerEvent: {}
+[18.731456] (-) TimerEvent: {}
+[18.831577] (-) TimerEvent: {}
+[18.931899] (-) TimerEvent: {}
+[19.032034] (-) TimerEvent: {}
+[19.132310] (-) TimerEvent: {}
+[19.232526] (-) TimerEvent: {}
+[19.332667] (-) TimerEvent: {}
+[19.432885] (-) TimerEvent: {}
+[19.533009] (-) TimerEvent: {}
+[19.633132] (-) TimerEvent: {}
+[19.733251] (-) TimerEvent: {}
+[19.833388] (-) TimerEvent: {}
+[19.933667] (-) TimerEvent: {}
+[20.033981] (-) TimerEvent: {}
+[20.134264] (-) TimerEvent: {}
+[20.234475] (-) TimerEvent: {}
+[20.334776] (-) TimerEvent: {}
+[20.435063] (-) TimerEvent: {}
+[20.535190] (-) TimerEvent: {}
+[20.635387] (-) TimerEvent: {}
+[20.735562] (-) TimerEvent: {}
+[20.835824] (-) TimerEvent: {}
+[20.935952] (-) TimerEvent: {}
+[21.036153] (-) TimerEvent: {}
+[21.136508] (-) TimerEvent: {}
+[21.236715] (-) TimerEvent: {}
+[21.336935] (-) TimerEvent: {}
+[21.437331] (-) TimerEvent: {}
+[21.537544] (-) TimerEvent: {}
+[21.637813] (-) TimerEvent: {}
+[21.737970] (-) TimerEvent: {}
+[21.838088] (-) TimerEvent: {}
+[21.938207] (-) TimerEvent: {}
+[22.038326] (-) TimerEvent: {}
+[22.138445] (-) TimerEvent: {}
+[22.238566] (-) TimerEvent: {}
+[22.338933] (-) TimerEvent: {}
+[22.439110] (-) TimerEvent: {}
+[22.539312] (-) TimerEvent: {}
+[22.639545] (-) TimerEvent: {}
+[22.739771] (-) TimerEvent: {}
+[22.839912] (-) TimerEvent: {}
+[22.940188] (-) TimerEvent: {}
+[23.040322] (-) TimerEvent: {}
+[23.140523] (-) TimerEvent: {}
+[23.240677] (-) TimerEvent: {}
+[23.340833] (-) TimerEvent: {}
+[23.441046] (-) TimerEvent: {}
+[23.541212] (-) TimerEvent: {}
+[23.641359] (-) TimerEvent: {}
+[23.741582] (-) TimerEvent: {}
+[23.841811] (-) TimerEvent: {}
+[23.942052] (-) TimerEvent: {}
+[24.042215] (-) TimerEvent: {}
+[24.142360] (-) TimerEvent: {}
+[24.242493] (-) TimerEvent: {}
+[24.342629] (-) TimerEvent: {}
+[24.442790] (-) TimerEvent: {}
+[24.542939] (-) TimerEvent: {}
+[24.643074] (-) TimerEvent: {}
+[24.743344] (-) TimerEvent: {}
+[24.843500] (-) TimerEvent: {}
+[24.943734] (-) TimerEvent: {}
+[25.043951] (-) TimerEvent: {}
+[25.144149] (-) TimerEvent: {}
+[25.244312] (-) TimerEvent: {}
+[25.344526] (-) TimerEvent: {}
+[25.444739] (-) TimerEvent: {}
+[25.544944] (-) TimerEvent: {}
+[25.645070] (-) TimerEvent: {}
+[25.745194] (-) TimerEvent: {}
+[25.845313] (-) TimerEvent: {}
+[25.945429] (-) TimerEvent: {}
+[26.045546] (-) TimerEvent: {}
+[26.145668] (-) TimerEvent: {}
+[26.245798] (-) TimerEvent: {}
+[26.345953] (-) TimerEvent: {}
+[26.446124] (-) TimerEvent: {}
+[26.546244] (-) TimerEvent: {}
+[26.646360] (-) TimerEvent: {}
+[26.746487] (-) TimerEvent: {}
+[26.846607] (-) TimerEvent: {}
+[26.946729] (-) TimerEvent: {}
+[27.046861] (-) TimerEvent: {}
+[27.146982] (-) TimerEvent: {}
+[27.247106] (-) TimerEvent: {}
+[27.347230] (-) TimerEvent: {}
+[27.447349] (-) TimerEvent: {}
+[27.547516] (-) TimerEvent: {}
+[27.647641] (-) TimerEvent: {}
+[27.747763] (-) TimerEvent: {}
+[27.847952] (-) TimerEvent: {}
+[27.948110] (-) TimerEvent: {}
+[28.048233] (-) TimerEvent: {}
+[28.148371] (-) TimerEvent: {}
+[28.248491] (-) TimerEvent: {}
+[28.348628] (-) TimerEvent: {}
+[28.448829] (-) TimerEvent: {}
+[28.548957] (-) TimerEvent: {}
+[28.649081] (-) TimerEvent: {}
+[28.749203] (-) TimerEvent: {}
+[28.849326] (-) TimerEvent: {}
+[28.949441] (-) TimerEvent: {}
+[29.049719] (-) TimerEvent: {}
+[29.149914] (-) TimerEvent: {}
+[29.250053] (-) TimerEvent: {}
+[29.350179] (-) TimerEvent: {}
+[29.450303] (-) TimerEvent: {}
+[29.550514] (-) TimerEvent: {}
+[29.650634] (-) TimerEvent: {}
+[29.750754] (-) TimerEvent: {}
+[29.850929] (-) TimerEvent: {}
+[29.951047] (-) TimerEvent: {}
+[30.030149] (decision_layer) CommandEnded: {'returncode': 0}
+[30.040700] (decision_layer) JobEnded: {'identifier': 'decision_layer', 'rc': 0}
+[30.040919] (-) EventReactorShutdown: {}

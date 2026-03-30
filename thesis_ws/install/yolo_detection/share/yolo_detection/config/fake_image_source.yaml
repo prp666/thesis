@@ -1,0 +1,10 @@
+/fake_image_source_node:
+  ros__parameters:
+    image_topic: /camera/image_raw
+    publish_rate: 5.0
+    frame_id: fake_camera
+    image_dir: /home/prp/thesis/thesis_ws/src/yolo_detection/pictures
+    width: 640
+    height: 480
+    drone_present: true
+    noise_level: 8.0
