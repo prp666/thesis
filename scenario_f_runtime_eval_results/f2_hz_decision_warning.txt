@@ -1,0 +1,16 @@
+# collected_at: 2026-04-21 13:03:01
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /decision/warning
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00035s window: 7
+average rate: 5.000
+	min: 0.198s max: 0.201s std dev: 0.00069s window: 10
+average rate: 4.999
+	min: 0.198s max: 0.201s std dev: 0.00074s window: 10
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00028s window: 10
+average rate: 4.999
+	min: 0.198s max: 0.202s std dev: 0.00090s window: 10
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00029s window: 10
+average rate: 4.991
+	min: 0.200s max: 0.204s std dev: 0.00114s window: 10

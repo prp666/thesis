@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/prp/detection_yolo/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'sound-detection==0.0.0','console_scripts','fake_audio_source_node'
 import re
 import sys

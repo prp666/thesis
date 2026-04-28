@@ -1,0 +1,6 @@
+node,available
+/fake_audio_source_node,true
+/sound_presence_detector_node,true
+/fake_image_source_node,true
+/vision_detector_node,true
+/decision_node,true

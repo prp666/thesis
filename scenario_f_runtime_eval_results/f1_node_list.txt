@@ -1,0 +1,7 @@
+# collected_at: 2026-04-21 13:01:58
+# node discovery union over 15s
+/decision_node
+/fake_audio_source_node
+/fake_image_source_node
+/sound_presence_detector_node
+/vision_detector_node

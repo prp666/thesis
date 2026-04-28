@@ -1,0 +1,19 @@
+# collected_at: 2026-04-21 13:02:21
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /sound/confidence
+WARNING: topic [/sound/confidence] does not appear to be published yet
+average rate: 23.874
+	min: 0.000s max: 0.064s std dev: 0.02870s window: 10
+average rate: 15.627
+	min: 0.064s max: 0.064s std dev: 0.00015s window: 10
+average rate: 15.629
+	min: 0.064s max: 0.064s std dev: 0.00016s window: 10
+average rate: 15.623
+	min: 0.064s max: 0.064s std dev: 0.00017s window: 10
+average rate: 15.629
+	min: 0.064s max: 0.064s std dev: 0.00013s window: 10
+average rate: 15.628
+	min: 0.064s max: 0.064s std dev: 0.00005s window: 10
+average rate: 15.627
+	min: 0.064s max: 0.064s std dev: 0.00006s window: 10
+average rate: 15.636
+	min: 0.064s max: 0.064s std dev: 0.00010s window: 10

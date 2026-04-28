@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/prp/detection_yolo/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'decision-layer==0.0.0','console_scripts','decision_node'
 import re
 import sys

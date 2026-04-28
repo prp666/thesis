@@ -1,0 +1,14 @@
+# collected_at: 2026-04-21 13:02:51
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /vision/confidence
+average rate: 2.194
+	min: 0.146s max: 0.818s std dev: 0.31182s window: 4
+average rate: 2.000
+	min: 0.146s max: 1.030s std dev: 0.36578s window: 6
+average rate: 2.189
+	min: 0.146s max: 1.030s std dev: 0.35545s window: 9
+average rate: 1.986
+	min: 0.146s max: 1.030s std dev: 0.37141s window: 10
+average rate: 1.941
+	min: 0.146s max: 1.030s std dev: 0.37925s window: 10
+average rate: 2.352
+	min: 0.146s max: 1.030s std dev: 0.31942s window: 10

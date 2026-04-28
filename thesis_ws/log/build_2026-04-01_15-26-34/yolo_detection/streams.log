@@ -1,0 +1,22 @@
+[0.548s] Invoking command in '/home/prp/thesis/thesis_ws/src/yolo_detection': PYTHONPATH=/home/prp/thesis/thesis_ws/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/prp/thesis/thesis_ws/build/yolo_detection/build install --record /home/prp/thesis/thesis_ws/build/yolo_detection/install.log --single-version-externally-managed install_data
+[0.665s] running egg_info
+[0.666s] writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO
+[0.667s] writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt
+[0.667s] writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt
+[0.667s] writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt
+[0.667s] writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt
+[0.667s] reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] running install
+[0.667s] running install_lib
+[0.667s] running install_data
+[0.667s] running install_egg_info
+[0.668s] removing '/home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.668s] Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info
+[0.669s] running install_scripts
+[0.679s] Installing fake_image_source_node script to /home/prp/thesis/thesis_ws/install/yolo_detection/lib/yolo_detection
+[0.679s] Installing vision_detector script to /home/prp/thesis/thesis_ws/install/yolo_detection/lib/yolo_detection
+[0.679s] writing list of installed files to '/home/prp/thesis/thesis_ws/build/yolo_detection/install.log'
+[0.692s] Invoked command in '/home/prp/thesis/thesis_ws/src/yolo_detection' returned '0': PYTHONPATH=/home/prp/thesis/thesis_ws/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/prp/thesis/thesis_ws/build/yolo_detection/build install --record /home/prp/thesis/thesis_ws/build/yolo_detection/install.log --single-version-externally-managed install_data

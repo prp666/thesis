@@ -110,12 +110,10 @@ class FakeImageSourceNode(Node):
     def generate_synthetic_frame(self, drone_present: bool) -> np.ndarray:
         frame = np.zeros((self.height, self.width, 3), dtype=np.uint8)
 
-        # Simple sky / ground background so the image is easy to inspect in RViz.
         frame[:] = (210, 235, 255)
         horizon = int(self.height * 0.72)
         frame[horizon:, :] = (80, 160, 80)
 
-        # Add a moving sun-like circle so frames are visibly alive.
         sun_x = int(self.width * 0.15 + 12 * np.sin(self.frame_index * 0.15))
         cv2.circle(frame, (sun_x, int(self.height * 0.18)), 26, (0, 220, 255), -1)
 

@@ -1,0 +1,17 @@
+# collected_at: 2026-04-21 13:01:58
+/camera/image_raw
+/decision/reason
+/decision/score
+/decision/spoof_triggered
+/decision/state
+/decision/warning
+/decision/warning_level
+/parameter_events
+/rosout
+/sound/audio
+/sound/confidence
+/sound/detected
+/vision/bbox
+/vision/class_id
+/vision/confidence
+/vision/detected

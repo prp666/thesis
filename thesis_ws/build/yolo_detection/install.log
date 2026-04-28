@@ -11,7 +11,7 @@
 /home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/launch/fake_image_source.launch.py
 /home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/config/vision_detector.yaml
 /home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/config/fake_image_source.yaml
-/home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/pictures/drone_1.jpg
+/home/prp/thesis/thesis_ws/install/yolo_detection/share/yolo_detection/pictures/drone.jpg
 /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info/entry_points.txt
 /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/prp/thesis/thesis_ws/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info/requires.txt

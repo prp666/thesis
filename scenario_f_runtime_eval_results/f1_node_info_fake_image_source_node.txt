@@ -1,0 +1,21 @@
+# collected_at: 2026-04-21 13:01:58
+/fake_image_source_node
+  Subscribers:
+
+  Publishers:
+    /camera/image_raw: sensor_msgs/msg/Image
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+  Service Servers:
+    /fake_image_source_node/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /fake_image_source_node/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /fake_image_source_node/get_parameters: rcl_interfaces/srv/GetParameters
+    /fake_image_source_node/list_parameters: rcl_interfaces/srv/ListParameters
+    /fake_image_source_node/set_parameters: rcl_interfaces/srv/SetParameters
+    /fake_image_source_node/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+

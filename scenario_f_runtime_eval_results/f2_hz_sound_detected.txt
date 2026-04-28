@@ -1,0 +1,17 @@
+# collected_at: 2026-04-21 13:02:11
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /sound/detected
+WARNING: topic [/sound/detected] does not appear to be published yet
+average rate: 21.762
+	min: 0.000s max: 0.064s std dev: 0.02781s window: 10
+average rate: 15.636
+	min: 0.064s max: 0.064s std dev: 0.00009s window: 10
+average rate: 15.628
+	min: 0.064s max: 0.064s std dev: 0.00015s window: 10
+average rate: 15.626
+	min: 0.064s max: 0.064s std dev: 0.00018s window: 10
+average rate: 15.625
+	min: 0.064s max: 0.064s std dev: 0.00016s window: 10
+average rate: 15.627
+	min: 0.064s max: 0.064s std dev: 0.00010s window: 10
+average rate: 15.621
+	min: 0.064s max: 0.064s std dev: 0.00020s window: 10

@@ -1,0 +1,17 @@
+# collected_at: 2026-04-21 13:03:22
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /decision/state
+WARNING: topic [/decision/state] does not appear to be published yet
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00054s window: 7
+average rate: 4.992
+	min: 0.199s max: 0.203s std dev: 0.00113s window: 10
+average rate: 5.000
+	min: 0.197s max: 0.203s std dev: 0.00158s window: 10
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00030s window: 10
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00062s window: 10
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00067s window: 10
+average rate: 5.000
+	min: 0.199s max: 0.201s std dev: 0.00026s window: 10

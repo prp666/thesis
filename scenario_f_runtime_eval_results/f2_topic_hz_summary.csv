@@ -1,0 +1,11 @@
+topic,expected_hz_note,observed_average_hz,raw_file
+/sound/audio,about_15.6_hz,15.627,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_sound_audio.txt
+/sound/detected,about_15.6_hz,15.621,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_sound_detected.txt
+/sound/confidence,about_15.6_hz,15.636,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_sound_confidence.txt
+/camera/image_raw,about_5_hz,NA,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_camera_image_raw.txt
+/vision/detected,about_1.6_hz_if_process_every_3_frames,1.884,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_vision_detected.txt
+/vision/confidence,about_1.6_hz_if_process_every_3_frames,2.352,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_vision_confidence.txt
+/decision/warning,about_5_hz,4.991,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_decision_warning.txt
+/decision/score,about_5_hz,5.000,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_decision_score.txt
+/decision/state,about_5_hz,5.000,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_decision_state.txt
+/decision/reason,about_5_hz,4.998,/home/prp/thesis/scenario_f_runtime_eval_results/f2_hz_decision_reason.txt

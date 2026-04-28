@@ -1,0 +1,3 @@
+# collected_at: 2026-04-21 13:03:42
+# process_pattern: thesis_ws/install/.*/lib/.*/(fake_audio_source_node|sound_presence_detector_node|fake_image_source_node|vision_detector|decision_node)$
+# pids: 5563,5722,5849,7061,7554

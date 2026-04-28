@@ -1,0 +1,6 @@
+# collected_at: 2026-04-21 13:03:42
+   5563    5562 Sl+  fake_image_sour  1.4  0.3 126612 /home/prp/detection_yolo/bin/python3 /home/prp/thesis/thesis_ws/install/yolo_detection/lib/yolo_detection/fake_image_source_node
+   5722    5721 Sl+  fake_audio_sour  0.7  0.1 58964 /home/prp/detection_yolo/bin/python3 /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection/fake_audio_source_node
+   5849    5848 Sl+  decision_node    0.6  0.1 42412 /home/prp/detection_yolo/bin/python3 /home/prp/thesis/thesis_ws/install/decision_layer/lib/decision_layer/decision_node
+   7061    7060 Rl+  vision_detector 25.2  0.4 162032 /home/prp/detection_yolo/bin/python3 /home/prp/thesis/thesis_ws/install/yolo_detection/lib/yolo_detection/vision_detector
+   7554    7553 Sl+  sound_presence_  0.8  0.1 58828 /home/prp/detection_yolo/bin/python3 /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection/sound_presence_detector_node

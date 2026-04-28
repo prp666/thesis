@@ -22,15 +22,12 @@ def meters_to_latlon_delta(lat_deg: float, north_m: float, east_m: float) -> tup
 def main() -> None:
     node = Node()
 
-    # 在同一个 GPS topic 上再发布一份 spoofed NavSat
     pub = node.advertise(GPS_TOPIC, NavSat)
 
-    # 你刚刚从 Gazebo topic 里读到的真实 baseline
     real_lat = 47.397971057728981
     real_lon = 8.5461637398001447
     real_alt = 0.22699981648474932
 
-    # 先做固定偏移：北偏 5 米
     north_offset_m = 5.0
     east_offset_m = 0.0
     up_offset_m = 0.0
@@ -67,7 +64,7 @@ def main() -> None:
             if not ok:
                 print("[WARN] publish() returned False")
 
-            time.sleep(1.0 / 50.0)   # 50 Hz，高于原始 30 Hz
+            time.sleep(1.0 / 50.0)
 
     except KeyboardInterrupt:
         print("\n[INFO] Stopped.")

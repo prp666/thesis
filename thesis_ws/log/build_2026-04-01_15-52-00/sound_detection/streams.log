@@ -1,0 +1,25 @@
+[0.286s] Invoking command in '/home/prp/thesis/thesis_ws/src/sound_detection': PYTHONPATH=/home/prp/thesis/thesis_ws/build/sound_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sound_detection build --build-base /home/prp/thesis/thesis_ws/build/sound_detection/build install --record /home/prp/thesis/thesis_ws/build/sound_detection/install.log --single-version-externally-managed install_data
+[0.397s] running egg_info
+[0.397s] writing ../../build/sound_detection/sound_detection.egg-info/PKG-INFO
+[0.397s] writing dependency_links to ../../build/sound_detection/sound_detection.egg-info/dependency_links.txt
+[0.397s] writing entry points to ../../build/sound_detection/sound_detection.egg-info/entry_points.txt
+[0.397s] writing requirements to ../../build/sound_detection/sound_detection.egg-info/requires.txt
+[0.397s] writing top-level names to ../../build/sound_detection/sound_detection.egg-info/top_level.txt
+[0.398s] reading manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+[0.398s] writing manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+[0.398s] running build
+[0.398s] running build_py
+[0.398s] copying sound_detection/sound_presence_detector_node.py -> /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection
+[0.398s] running install
+[0.399s] running install_lib
+[0.399s] copying /home/prp/thesis/thesis_ws/build/sound_detection/build/lib/sound_detection/sound_presence_detector_node.py -> /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection
+[0.399s] byte-compiling /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection/sound_presence_detector_node.py to sound_presence_detector_node.cpython-310.pyc
+[0.400s] running install_data
+[0.400s] running install_egg_info
+[0.401s] removing '/home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.401s] Copying ../../build/sound_detection/sound_detection.egg-info to /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection-0.0.0-py3.10.egg-info
+[0.401s] running install_scripts
+[0.411s] Installing fake_audio_source_node script to /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection
+[0.411s] Installing sound_presence_detector_node script to /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection
+[0.411s] writing list of installed files to '/home/prp/thesis/thesis_ws/build/sound_detection/install.log'
+[0.423s] Invoked command in '/home/prp/thesis/thesis_ws/src/sound_detection' returned '0': PYTHONPATH=/home/prp/thesis/thesis_ws/build/sound_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sound_detection build --build-base /home/prp/thesis/thesis_ws/build/sound_detection/build install --record /home/prp/thesis/thesis_ws/build/sound_detection/install.log --single-version-externally-managed install_data

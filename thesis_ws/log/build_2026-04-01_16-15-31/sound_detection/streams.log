@@ -1,0 +1,22 @@
+[0.463s] Invoking command in '/home/prp/thesis/thesis_ws/src/sound_detection': PS1=(detection_yolo) PYTHONPATH=/home/prp/thesis/thesis_ws/build/sound_detection/prefix_override:/home/prp/detection_yolo/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(detection_yolo) /home/prp/detection_yolo/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sound_detection build --build-base /home/prp/thesis/thesis_ws/build/sound_detection/build install --record /home/prp/thesis/thesis_ws/build/sound_detection/install.log --single-version-externally-managed install_data
+[0.554s] running egg_info
+[0.554s] writing ../../build/sound_detection/sound_detection.egg-info/PKG-INFO
+[0.554s] writing dependency_links to ../../build/sound_detection/sound_detection.egg-info/dependency_links.txt
+[0.554s] writing entry points to ../../build/sound_detection/sound_detection.egg-info/entry_points.txt
+[0.554s] writing requirements to ../../build/sound_detection/sound_detection.egg-info/requires.txt
+[0.554s] writing top-level names to ../../build/sound_detection/sound_detection.egg-info/top_level.txt
+[0.555s] reading manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+[0.555s] writing manifest file '../../build/sound_detection/sound_detection.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] running install
+[0.556s] running install_lib
+[0.556s] running install_data
+[0.556s] running install_egg_info
+[0.557s] removing '/home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.557s] Copying ../../build/sound_detection/sound_detection.egg-info to /home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages/sound_detection-0.0.0-py3.10.egg-info
+[0.557s] running install_scripts
+[0.566s] Installing fake_audio_source_node script to /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection
+[0.566s] Installing sound_presence_detector_node script to /home/prp/thesis/thesis_ws/install/sound_detection/lib/sound_detection
+[0.566s] writing list of installed files to '/home/prp/thesis/thesis_ws/build/sound_detection/install.log'
+[0.577s] Invoked command in '/home/prp/thesis/thesis_ws/src/sound_detection' returned '0': PS1=(detection_yolo) PYTHONPATH=/home/prp/thesis/thesis_ws/build/sound_detection/prefix_override:/home/prp/detection_yolo/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/sound_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(detection_yolo) /home/prp/detection_yolo/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sound_detection build --build-base /home/prp/thesis/thesis_ws/build/sound_detection/build install --record /home/prp/thesis/thesis_ws/build/sound_detection/install.log --single-version-externally-managed install_data

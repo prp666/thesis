@@ -33,16 +33,13 @@ class FakeAudioSourceNode(Node):
         n = np.arange(self.frame_size)
         t = (self.sample_index + n) / self.sample_rate
 
-        # 背景噪声
         noise = np.random.normal(0, self.noise_level, self.frame_size)
 
         if drone_present:
-            # 更像旋翼的多谐波结构
             f0 = 180.0
             f1 = 360.0
             f2 = 540.0
 
-            # 轻微幅度调制
             envelope = 1.0 + 0.25 * np.sin(2 * np.pi * 3.0 * t)
 
             signal = (

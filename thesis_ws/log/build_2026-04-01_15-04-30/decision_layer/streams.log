@@ -1,0 +1,21 @@
+[0.564s] Invoking command in '/home/prp/thesis/thesis_ws/src/decision_layer': PYTHONPATH=/home/prp/thesis/thesis_ws/build/decision_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/decision_layer build --build-base /home/prp/thesis/thesis_ws/build/decision_layer/build install --record /home/prp/thesis/thesis_ws/build/decision_layer/install.log --single-version-externally-managed install_data
+[0.672s] running egg_info
+[0.672s] writing ../../build/decision_layer/decision_layer.egg-info/PKG-INFO
+[0.672s] writing dependency_links to ../../build/decision_layer/decision_layer.egg-info/dependency_links.txt
+[0.672s] writing entry points to ../../build/decision_layer/decision_layer.egg-info/entry_points.txt
+[0.672s] writing requirements to ../../build/decision_layer/decision_layer.egg-info/requires.txt
+[0.673s] writing top-level names to ../../build/decision_layer/decision_layer.egg-info/top_level.txt
+[0.673s] reading manifest file '../../build/decision_layer/decision_layer.egg-info/SOURCES.txt'
+[0.674s] writing manifest file '../../build/decision_layer/decision_layer.egg-info/SOURCES.txt'
+[0.674s] running build
+[0.674s] running build_py
+[0.674s] running install
+[0.675s] running install_lib
+[0.675s] running install_data
+[0.675s] running install_egg_info
+[0.677s] removing '/home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.677s] Copying ../../build/decision_layer/decision_layer.egg-info to /home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages/decision_layer-0.0.0-py3.10.egg-info
+[0.677s] running install_scripts
+[0.688s] Installing decision_node script to /home/prp/thesis/thesis_ws/install/decision_layer/lib/decision_layer
+[0.689s] writing list of installed files to '/home/prp/thesis/thesis_ws/build/decision_layer/install.log'
+[0.703s] Invoked command in '/home/prp/thesis/thesis_ws/src/decision_layer' returned '0': PYTHONPATH=/home/prp/thesis/thesis_ws/build/decision_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prp/thesis/thesis_ws/install/decision_layer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/decision_layer build --build-base /home/prp/thesis/thesis_ws/build/decision_layer/build install --record /home/prp/thesis/thesis_ws/build/decision_layer/install.log --single-version-externally-managed install_data

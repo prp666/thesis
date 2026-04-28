@@ -1,0 +1,18 @@
+# collected_at: 2026-04-21 13:02:01
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /sound/audio
+average rate: 15.627
+	min: 0.064s max: 0.064s std dev: 0.00008s window: 10
+average rate: 15.625
+	min: 0.064s max: 0.064s std dev: 0.00004s window: 10
+average rate: 15.623
+	min: 0.064s max: 0.064s std dev: 0.00005s window: 10
+average rate: 15.624
+	min: 0.064s max: 0.064s std dev: 0.00010s window: 10
+average rate: 15.624
+	min: 0.064s max: 0.064s std dev: 0.00009s window: 10
+average rate: 15.626
+	min: 0.064s max: 0.064s std dev: 0.00006s window: 10
+average rate: 15.627
+	min: 0.064s max: 0.064s std dev: 0.00008s window: 10
+average rate: 15.627
+	min: 0.064s max: 0.064s std dev: 0.00007s window: 10

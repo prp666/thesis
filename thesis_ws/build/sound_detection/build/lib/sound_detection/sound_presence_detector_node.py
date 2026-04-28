@@ -46,15 +46,12 @@ class SoundPresenceDetectorNode(Node):
         if len(samples) == 0:
             return
 
-        # 1. 时域总能量
         energy = float(np.mean(samples ** 2))
 
-        # 2. 频域分析
         fft_vals = np.fft.rfft(samples)
         freqs = np.fft.rfftfreq(len(samples), d=1.0 / self.sample_rate)
         power = np.abs(fft_vals) ** 2
 
-        # 目标频带：150 Hz ~ 600 Hz
         band_mask = (freqs >= 150.0) & (freqs <= 600.0)
         band_energy = float(np.sum(power[band_mask]))
         total_energy = float(np.sum(power) + 1e-8)
@@ -65,7 +62,6 @@ class SoundPresenceDetectorNode(Node):
             (band_ratio > self.ratio_threshold)
         )
 
-        # 更温和的 confidence 计算
         energy_ratio = float(energy / self.energy_threshold)
         band_ratio_norm = float(band_ratio / self.ratio_threshold)
 

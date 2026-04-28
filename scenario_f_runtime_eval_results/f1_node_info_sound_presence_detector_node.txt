@@ -1,0 +1,22 @@
+# collected_at: 2026-04-21 13:01:58
+/sound_presence_detector_node
+  Subscribers:
+    /sound/audio: std_msgs/msg/Int16MultiArray
+  Publishers:
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+    /sound/confidence: std_msgs/msg/Float32
+    /sound/detected: std_msgs/msg/Bool
+  Service Servers:
+    /sound_presence_detector_node/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /sound_presence_detector_node/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /sound_presence_detector_node/get_parameters: rcl_interfaces/srv/GetParameters
+    /sound_presence_detector_node/list_parameters: rcl_interfaces/srv/ListParameters
+    /sound_presence_detector_node/set_parameters: rcl_interfaces/srv/SetParameters
+    /sound_presence_detector_node/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+

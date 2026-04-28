@@ -264,8 +264,6 @@ class VisionDetectorNode(Node):
                     objectness > 0.0 and
                     best_class_score <= 1e-6
                 ):
-                    # Some single-class or quantized exports expose objectness as the
-                    # usable confidence while class scores stay zeroed out.
                     score = objectness
                 elif objectness <= 1.0 and best_class_score <= 1.0:
                     score = objectness * best_class_score

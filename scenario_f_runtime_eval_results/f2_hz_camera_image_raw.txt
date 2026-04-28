@@ -1,0 +1,2 @@
+# collected_at: 2026-04-21 13:02:31
+# command: timeout -s INT 10s ros2 topic hz --window 10 --wall-time /camera/image_raw

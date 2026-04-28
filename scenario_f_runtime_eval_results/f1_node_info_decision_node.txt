@@ -1,0 +1,29 @@
+# collected_at: 2026-04-21 13:01:59
+/decision_node
+  Subscribers:
+    /sound/confidence: std_msgs/msg/Float32
+    /sound/detected: std_msgs/msg/Bool
+    /vision/confidence: std_msgs/msg/Float32
+    /vision/detected: std_msgs/msg/Bool
+  Publishers:
+    /decision/reason: std_msgs/msg/String
+    /decision/score: std_msgs/msg/Float32
+    /decision/spoof_triggered: std_msgs/msg/Bool
+    /decision/state: std_msgs/msg/String
+    /decision/warning: std_msgs/msg/Bool
+    /decision/warning_level: std_msgs/msg/String
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+  Service Servers:
+    /decision_node/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /decision_node/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /decision_node/get_parameters: rcl_interfaces/srv/GetParameters
+    /decision_node/list_parameters: rcl_interfaces/srv/ListParameters
+    /decision_node/set_parameters: rcl_interfaces/srv/SetParameters
+    /decision_node/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+
