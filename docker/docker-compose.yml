@@ -1,0 +1,25 @@
+services:
+  thesis_pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: thesis-ros2-pipeline:humble
+    network_mode: host
+    ipc: host
+    environment:
+      ROS_DOMAIN_ID: ${ROS_DOMAIN_ID:-0}
+      RMW_IMPLEMENTATION: ${RMW_IMPLEMENTATION:-rmw_fastrtps_cpp}
+      ROS_LOG_DIR: /tmp/ros-log
+    command: ros2 launch decision_layer docker_pipeline.launch.py
+
+  shell:
+    image: thesis-ros2-pipeline:humble
+    network_mode: host
+    ipc: host
+    environment:
+      ROS_DOMAIN_ID: ${ROS_DOMAIN_ID:-0}
+      RMW_IMPLEMENTATION: ${RMW_IMPLEMENTATION:-rmw_fastrtps_cpp}
+      ROS_LOG_DIR: /tmp/ros-log
+    profiles:
+      - tools
+    command: bash

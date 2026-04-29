@@ -1,0 +1,27 @@
+/decision_node:
+  ros__parameters:
+    vision_detected_topic: /vision/detected
+    vision_confidence_topic: /vision/confidence
+    sound_detected_topic: /sound/detected
+    sound_confidence_topic: /sound/confidence
+    warning_topic: /decision/warning
+    decision_score_topic: /decision/score
+    spoof_triggered_topic: /decision/spoof_triggered
+    decision_reason_topic: /decision/reason
+    decision_state_topic: /decision/state
+    warning_level_topic: /decision/warning_level
+    vision_weight: 0.6
+    sound_weight: 0.4
+    min_vision_confidence: 0.2
+    min_sound_confidence: 0.2
+    warning_score_threshold: 0.35
+    spoof_score_threshold: 0.55
+    sensor_timeout_sec: 2.0
+    evaluation_period_sec: 0.2
+    require_both_modalities_for_spoof: true
+    gps_spoof_command: "/bin/sleep 3600"
+    gps_spoof_cooldown_sec: 10.0
+    max_spoof_triggers: 1
+    reset_trigger_count_when_threat_clears: true
+    reset_cooldown_when_threat_clears: true
+    stop_spoofing_when_threat_clears: true

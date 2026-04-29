@@ -1,0 +1,7 @@
+.git
+Results
+thesis_ws/build
+thesis_ws/install
+thesis_ws/log
+thesis_ws/src/**/__pycache__
+thesis_ws/src/**/*.pyc
