@@ -9,6 +9,12 @@ The repository also includes a Docker version that runs the core pipeline
 without Gazebo or QGroundControl. This is the recommended way to reproduce the
 main software pipeline on another machine.
 
+## Read Thesis
+
+This thesis already been published on Diva, you can visit this link to dowload
+this theis: 
+https://www.diva-portal.org/smash/record.jsf?dswid=-2653&pid=diva2%3A2068099&c=1&searchType=SIMPLE&language=en&query=Ruipu+Peng&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all
+
 ## Repository Structure
 
 ```text
